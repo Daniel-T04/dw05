@@ -1,5 +1,5 @@
 #include "greeting.h"   // This should always be first, do not move this
-
+#include <string>
 #include <iostream>
 
 std::string retrieve_name() {
@@ -14,4 +14,4 @@ std::string retrieve_name() {
 
 void greeting(const std::string name) {
     std::cout << "Welcome, " << name << std::endl;
-}
+} 
